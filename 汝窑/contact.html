@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="联系汝窑 - 欢迎咨询汝瓷相关事宜">
+    <meta name="keywords" content="联系汝窑,汝瓷咨询,汝窑地址,汝窑电话">
+    <title>联系我们 - 汝窑</title>
+    <script src="../images.js"> </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== 头部区域 ========== -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="汝窑Logo">
+                    <span class="logo-text">汝窑</span>
+                </a>
+            </div>
+            <div class="search-btn">
+                <a href="gallery.html">🔍 搜索作品</a>
+            </div>
+            <div class="user-actions">
+                <a href="login.html" class="btn btn-login">登录</a>
+                <a href="register.html" class="btn btn-register">注册</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== 导航栏 ========== -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="history.html">历史渊源</a></li>
+            <li><a href="craft.html">制作工艺</a></li>
+            <li><a href="gallery.html">作品鉴赏</a></li>
+            <li><a href="contact.html" class="active">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========== 主内容区域 ========== -->
+    <main>
+        <!-- 页面横幅 -->
+        <section class="contact-banner">
+            <h1>联系我们</h1>
+        </section>
+
+        <!-- 联系信息与表单 -->
+        <section class="contact-section">
+            <div class="contact-wrapper clearfix">
+                <!-- 联系信息 -->
+                <div class="contact-info">
+                    <div class="section-title" style="text-align: left; margin-bottom: 40px;">
+                        <h2 style="padding-left: 0;">联系方式</h2>
+                        <p style="margin-top: 10px;">欢迎您的来访与咨询</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <h4>地址</h4>
+                        <p>河南省平顶山市宝丰县<br>清凉寺汝窑遗址公园</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <h4>电话</h4>
+                        <p>咨询热线：0375-XXXXXXX<br>客服电话：400-XXX-XXXX</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">✉</div>
+                        <h4>邮箱</h4>
+                        <p>商务合作：business@ruyao.com<br>客户服务：service@ruyao.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <h4>营业时间</h4>
+                        <p>周一至周日：9:00 - 18:00<br>节假日正常营业</p>
+                    </div>
+                </div>
+
+                <!-- 联系表单 -->
+                <div class="contact-form">
+                    <div class="section-title" style="text-align: left; margin-bottom: 40px;">
+                        <h2 style="padding-left: 0;">在线留言</h2>
+                        <p style="margin-top: 10px;">我们将尽快回复您的咨询</p>
+                    </div>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">您的姓名 *</label>
+                            <input type="text" id="name" name="name" placeholder="请输入您的姓名" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">联系电话 *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="请输入您的联系电话" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">电子邮箱</label>
+                            <input type="email" id="email" name="email" placeholder="请输入您的电子邮箱">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">咨询主题 *</label>
+                            <input type="text" id="subject" name="subject" placeholder="请输入咨询主题" required>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">留言内容 *</label>
+                            <textarea id="message" name="message" placeholder="请输入您的留言内容..." required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">提交留言</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    
+    </main>
+
+    <!-- ========== 页脚区域 ========== -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>关于汝窑</h3>
+                    <p>汝窑，宋代五大名窑之首，以其独特的天青釉色和精湛的制作工艺闻名于世，是中国陶瓷艺术的瑰宝。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="history.html">历史渊源</a></li>
+                        <li><a href="craft.html">制作工艺</a></li>
+                        <li><a href="gallery.html">作品鉴赏</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p>地址：河南省平顶山市宝丰县</p>
+                    <p>电话：0375-XXXXXXX</p>
+                    <p>邮箱：info@ruyao.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <p>扫描二维码关注官方公众号，获取最新资讯和优惠信息。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 汝窑文化传承中心 版权所有 | 豫ICP备XXXXXXXX号</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="汝窑用户登录">
+    <meta name="keywords" content="汝窑,登录,用户中心">
+    <title>用户登录 - 汝窑</title>
+    <script src="../images.js"> </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ========== 头部区域 ========== -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="汝窑Logo">
+                    <span class="logo-text">汝窑</span>
+                </a>
+            </div>
+            <div class="search-btn">
+                <a href="gallery.html">🔍 搜索作品</a>
+            </div>
+            <div class="user-actions">
+                <a href="login.html" class="btn btn-login">登录</a>
+                <a href="register.html" class="btn btn-register">注册</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== 导航栏 ========== -->
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="history.html">历史渊源</a></li>
+            <li><a href="craft.html">制作工艺</a></li>
+            <li><a href="gallery.html">作品鉴赏</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========== 主内容区域 ========== -->
+    <main>
+        <section class="auth-section">
+            <div class="auth-container auth-container-simple">
+                <div class="auth-box">
+                    <div class="auth-header">
+                        <h2>用户登录</h2>
+                        <p>欢迎回来，请登录您的账户</p>
+                    </div>
+                    
+                    <form id="loginForm" class="auth-form">
+                        <div class="form-group">
+                            <label for="username">用户名/手机号</label>
+                            <input type="text" id="username" name="username" placeholder="请输入用户名或手机号" required>
+                            <span class="error-message" id="usernameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">密码</label>
+                            <input type="password" id="password" name="password" placeholder="请输入密码" required>
+                            <span class="error-message" id="passwordError"></span>
+                        </div>
+                        
+                        <div class="form-options">
+                            <label class="remember-me">
+                                <input type="checkbox" name="remember"> 记住我
+                            </label>
+                            <a href="#" class="forgot-password">忘记密码？</a>
+                        </div>
+                        
+                        <button type="submit" class="auth-btn">登 录</button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>还没有账户？<a href="register.html">立即注册</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========== 页脚区域 ========== -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>关于汝窑</h3>
+                    <p>汝窑，宋代五大名窑之首，以其独特的天青釉色和精湛的制作工艺闻名于世，是中国陶瓷艺术的瑰宝。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="history.html">历史渊源</a></li>
+                        <li><a href="craft.html">制作工艺</a></li>
+                        <li><a href="gallery.html">作品鉴赏</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <p>地址：河南省平顶山市宝丰县</p>
+                    <p>电话：0375-XXXXXXX</p>
+                    <p>邮箱：info@ruyao.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <p>扫描二维码关注官方公众号，获取最新资讯和优惠信息。</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 汝窑文化传承中心 版权所有 | 豫ICP备XXXXXXXX号</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
